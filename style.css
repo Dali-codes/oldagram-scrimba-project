@@ -1,0 +1,117 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #EDEDED;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+/* layout */
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.post-sections {
+    margin-bottom: 25px;
+}
+
+/* header images */
+
+.header-imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+    height: 67px;
+}
+
+.oldagram-logo {
+    width: 127px;
+}
+
+.oldagram-logo, 
+.your-user-avatar-img {
+    margin: 16px;
+}
+
+.your-user-avatar-img {
+    border: rgb(236, 236, 236) solid 1px;
+}
+
+/* post images */
+
+.user-avatar, 
+.your-user-avatar-img {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+.user-avatar {
+    margin: 10px 7px 11px 10px;
+}
+
+.post-img {
+    width: 100%;
+    margin: 0;
+}
+
+
+/* post content */
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-full-name {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 11px 0 0 0;
+}
+
+.location-text {
+    font-size: 12px; 
+    line-height: 15px;
+    margin: 0 0 13px 0;   
+}
+
+.post-content {
+    padding: 18px 15px 15px 10px;
+}
+
+.likes-el {
+    margin: 12px 0 12px 0;
+}
+
+.comments-el {
+    margin: 0;
+}
+
+/* post icons */
+
+.icons {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-img {
+    width: 23px;
+}
+
+.icon-img:hover {
+    cursor: pointer;
+}
+
+.like-icon:hover, 
+.like-icon:focus {
+    filter: invert(25%) sepia(76%) saturate(2606%) hue-rotate(351deg) brightness(91%) contrast(98%);
+}
