@@ -97,6 +97,12 @@ body {
 
 /* post icons */
 
+.btn {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
 .icons {
     width: 90px;
     display: flex;
